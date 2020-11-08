@@ -70,7 +70,6 @@ public class Player : MonoBehaviour
             while (moveSpeed != 0)
             {
                 moveSpeed -= addSpeed*Time.deltaTime;
-                transform.Translate(moveSpeed, 0, 0);
                 if (moveSpeed <= 0)
                 {
                     moveSpeed = 0;
