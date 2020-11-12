@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Point
   - Target
+  - Front
+  - Rear
+  - TrackInside
+  - TrackOutside
   layers:
   - Default
   - TransparentFX
